@@ -16,17 +16,24 @@ library(lubridate) # to use as.Date function
 
 Part 1:
 - group_by Day.of.Week 
-- create table and figure displaying number and percent of delays on each day of the week
+- calculate count, mean, and percent of delays for each day of the week using the summary function
+- create table displaying count, mean, and percent of delays
+- generate figure displaying the number of delays on each day of the week
 
 Part 2:
+- calculate the number of delays per day using the summary function
+- calculate the number of delays per week using the summary function
 - generate graph displaying number of delays per day and week May 2024
 
 Part 3: 
 - generate a new column for hour of the day using the mutate and positx functions
-- create a graph to display the number of delays at each hour
+- group_by hour
+- calculate the number of delays per hour using the summary function
+- create a graph to display the number of delays at each hour of the day
 
 Part 4: 
 - group_by Stop.Number in ridership_simulated dataset and the stop in otp_simulated
+- calculate the number, mean, and percentage of delays at each stop
 - create table and figure displaying number and percent of delays at each stop
 
 Simulation + Optimization: 
